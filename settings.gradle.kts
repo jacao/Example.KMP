@@ -1,2 +1,2 @@
-rootProject.name = "Base.KMP"
+rootProject.name = "Example.KMP"
 include(":Module")

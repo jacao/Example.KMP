@@ -9,7 +9,7 @@ plugins {
 }
 
 version = "0.0.1"
-group = "com.example.module"
+group = "com.unidays.module"
 
 jacoco {
     toolVersion = "0.8.6"

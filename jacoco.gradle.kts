@@ -22,7 +22,7 @@ val jacocoTestCoverageVerification by tasks.creating(JacocoCoverageVerification:
             limit {
                 // If and switch statements, this metric counts the total number of such branches in a method and determines the number of executed or missed branches.
                 counter = "BRANCH"
-                minimum = "0.95".toBigDecimal()
+                minimum = "0.90".toBigDecimal()
             }
         }
         rule {

@@ -9,7 +9,7 @@ plugins {
 }
 
 version = "0.0.1"
-group = "com.unidays.module"
+group = "com.unidays.example"
 
 jacoco {
     toolVersion = "0.8.6"
@@ -31,7 +31,7 @@ kotlin {
     iosTarget("ios") {
         binaries {
             framework {
-                baseName = "Module"
+                baseName = "Example"
             }
         }
     }
@@ -71,7 +71,7 @@ android {
     }
 }
 multiplatformSwiftPackage {
-    packageName("Module")
+    packageName("Example")
     swiftToolsVersion("5.4")
     targetPlatforms {
         iOS { v("13") }
